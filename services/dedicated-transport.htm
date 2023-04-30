@@ -1,0 +1,150 @@
+<?php //If the HTTPS is not found to be "on"
+if(!isset($_SERVER["HTTPS"]) || $_SERVER["HTTPS"] != "on")
+{
+    //Tell the browser to redirect to the HTTPS URL.
+  header("Location: https://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]);
+    //Prevent the rest of the script from executing.
+  exit;
+}
+$iphone = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
+$android = strpos($_SERVER['HTTP_USER_AGENT'],"Android");
+$palmpre = strpos($_SERVER['HTTP_USER_AGENT'],"webOS");
+$berry = strpos($_SERVER['HTTP_USER_AGENT'],"BlackBerry");
+$ipod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
+session_start();
+if ($_GET["format"] == 'mobile')
+{
+  $_SESSION["format"] = 'mobile';
+  header('Location: https://www.ledatransport.co.uk/mobile/services.php');
+}
+if ($_GET["format"] == 'desktop' OR $_SESSION["format"] == 'desktop')
+{
+  $_SESSION["format"] = 'desktop';
+}
+else if ($iphone || $android || $palmpre || $ipod || $berry == true)
+{
+  header('Location: https://www.ledatransport.co.uk/mobile/services.php');
+}
+?>
+<!DOCTYPE html>
+<html lang="en-gb" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-43169866-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-43169866-2');
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>Dedicated transport in Newcastle, UK and Europe</title>
+  <meta name='description' content='Dedicated Transport in Tyneside and Newcastle, UK and Europe. Call 0191 406 64 55 for transport solutions on dedicated vehicles to take your load directly to your destination.'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="../css/style-beta.css">
+  <link rel="canonical" href="https://www.ledatransport.co.uk/services/dedicated-transport.php">
+<link rel="alternate" media="only screen and (max-width: 980px)" href="https://www.ledatransport.co.uk/mobile/services.php">
+<link rel="amphtml" href="https://www.ledatransport.co.uk/mobile/services.php"/>
+<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <header>
+    <div class='leda-sticky-header'>
+      <ul>
+        <li><a href='../index.php'>Home</a></li>
+        <li><a href='../about.php'>About</a></li>
+        <li class='selected'><a href='../services.php'>Services</a></li>
+        <li><a href='../suppliers.php'>Suppliers</a></li>
+        <li><a href='../news.php'>News</a></li>
+      </ul>
+      <div class='leda-header-contact'>
+        <p class='call'><a href='tel:+441914066455'>0191 406 64 55</a></p>
+        <p class='email'><a href='mailto:info@ledatransport.co.uk'>info@ledatransport.co.uk</a></p>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class='leda-section-even'>
+      <div class='leda-content-container'>
+        <div class='leda-content-left'>
+
+
+   <h1>Dedicated Transport</h1>
+
+
+  <p>Leda Transport provide transport solutions on <b>dedicated vehicles</b> to match your needs. Your vehicle arrives at your collection or import point at a time convenient to you. It's solely for your shipment, and takes your load <b>directly to your destination</b> - it's <b>never co-loaded, never transhipped, and never transferred</b> to a different vehicle, so you get the fastest road transport times possible through Europe. It's far <b>safer, and more secure</b>.</p>
+    <p>We'll put together a dedicated contract carriage solution to meet your business requirements. Our fleet modeling, routing, scheduling and optimisation methods mean we can match your shipment to real time availability, improving efficiency in the supply chain. We'll <b>save miles and cost</b> where we can, increasing your service levels by reducing transit time. You get the highest quality and best value for your business, every time.</p>
+    <p>We have access to a huge <b>fleet of vehicles, depots and teams</b> positioned across Europe, ready to deliver your time sensitive, fragile and high value loads.</p>
+    <p>At Leda Transport, our team is as dedicated as our vehicles. John and Rob have years of experience in the transport industry. They personally arrange and track your delivery, giving you updates every step of the way through to <b>on-time distribution and proof of delivery</b>. With complete transparency and peace of mind, the Leda team is like an extension of yours.</p>
+    <p><b>Let us take it from here.</b></p>
+    <p>Call Rob and John on <a href='tel:01914066455'>0191 406 64 55</a></p>
+
+
+        </div>
+      </div>
+    </div>
+</main>
+<footer>
+  <div class='leda-section-odd leda-section-footer'>
+    <div class='leda-content-container'>
+      <div class='leda-content-child'>
+        <h3>Leda Transport</h3>
+        <ul>
+          <li>About</li>
+          <li>Suppliers</li>
+          <li>News</li>
+          <li>Contact</li>
+          <li>Mobile Site</li>
+        </ul>
+        <h3>Contact Us</h3>
+        <ul>
+          <li>info@ledatransport.co.uk</li>
+          <li>0191 406 64 55</li>
+        </ul>
+      </div>
+      <div class='leda-content-child'>
+        <h3>Leda Services</h3>
+        <ul>
+          <li>Services List</li>
+          <li>Dedicated Transport</li>
+          <li>Express Transport</li>
+          <li>Urgent Transport</li>
+          <li>Groupage</li>
+        </ul>
+      </div>
+      <div class='leda-content-child'>
+        <h3>Locations</h3>
+        <ul>
+          <li>Birmingham</li>
+          <li>Bradford</li>
+          <li>Bristol</li>
+          <li>Edinburgh</li>
+          <li>Fife</li>
+          <li>Glasgow</li>
+          <li>Kirklees</li>
+          <li>Leeds</li>
+        </ul>
+      </div>
+      <div class='leda-content-child'>
+        <h3>Locations</h3>
+        <ul>
+          <li>Liverpool</li>
+          <li>London</li>
+          <li>Manchester</li>
+          <li>Newcastle</li>
+          <li>North Lanarkshire</li>
+          <li>Sheffield</li>
+          <li>Wakefield</li>
+          <li>Wirral</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class='final-footer'>
+    <img src="../img/leda.svg" class="leda" alt="Leda Transport Logo" title="Leda Transport Logo">
+    <p>© 2022 Leda Transport Solutions Ltd. Registered in England and Wales - Company Number: 10165475. VAT Registration Number: GB244781392.</p>
+    <p>Registered office: Ground Floor, 7 Silverton Court, Cramlington, Northumberland, NE23 7RY, United Kingdom.</p>
+  </div>
+</footer>
+</body>
+</html>

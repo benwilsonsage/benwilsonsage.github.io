@@ -1,0 +1,44 @@
+h1
+{
+font-family: 'Lato', sans-serif;
+color: #040E3D;
+font-size: 28px;
+font-weight: 500;
+}
+
+h2
+{
+  font-family: 'Lato', sans-serif;
+  color: #040E3D;
+font-size: 21px;
+font-weight: 500;
+}
+
+p
+{
+  font-family: 'Lato', sans-serif;
+  color: #040E3D;
+font-size: 18px;
+font-weight: 300;
+}
+
+.bold
+{
+font-weight: bold;
+}
+
+
+li
+{
+  font-family: 'Lato', sans-serif;
+  color: #040E3D;
+list-style-type: square;
+font-size: 18px;
+font-weight: 300;
+
+}
+
+
+
+
+
