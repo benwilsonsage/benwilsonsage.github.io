@@ -1,0 +1,119 @@
+<?php //If the HTTPS is not found to be "on"
+if(!isset($_SERVER["HTTPS"]) || $_SERVER["HTTPS"] != "on")
+{
+    //Tell the browser to redirect to the HTTPS URL.
+  header("Location: https://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]);
+    //Prevent the rest of the script from executing.
+  exit;
+}
+?>
+<!DOCTYPE html>
+<html lang="en-gb" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-43169866-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-43169866-2');
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>Leda Transport - Page not found</title>
+  <meta name="description" content="Page not found.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/style-beta.css">
+<link rel="canonical" href="https://www.ledatransport.co.uk/404.php">
+<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <header>
+    <div class='leda-sticky-header'>
+      <ul>
+        <li><a href='index.php'>Home</a></li>
+        <li><a href='about.php'>About</a></li>
+        <li><a href='services.php'>Services</a></li>
+        <li><a href='suppliers.php'>Suppliers</a></li>
+        <li><a href='news.php'>News</a></li>
+      </ul>
+      <div class='leda-header-contact'>
+        <p class='call'><a href='tel:+441914066455'>0191 406 64 55</a></p>
+        <p class='email'><a href='mailto:info@ledatransport.co.uk'>info@ledatransport.co.uk</a></p>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class='leda-section-even'>
+      <div class='leda-content-container'>
+        <div class='leda-content-left'>
+   <h1>Page not found :(</h1>
+<p>Sorry, we couldn't find that page.</p>
+<p>Just give us a call on <a href='tel:+441914066455'>0191 406 64 55</a>, and we'll help you.</p>
+        </div>
+      </div>
+    </div>
+</main>
+<footer>
+  <div class='leda-section-odd leda-section-footer'>
+    <div class='leda-content-container'>
+      <div class='leda-content-child'>
+        <h3>Leda Transport</h3>
+        <ul>
+          <li>About</li>
+          <li>Suppliers</li>
+          <li>News</li>
+          <li>Contact</li>
+          <li>Mobile Site</li>
+        </ul>
+        <h3>Contact Us</h3>
+        <ul>
+          <li>info@ledatransport.co.uk</li>
+          <li>0191 406 64 55</li>
+        </ul>
+      </div>
+      <div class='leda-content-child'>
+        <h3>Leda Services</h3>
+        <ul>
+          <li>Services List</li>
+          <li>Dedicated Transport</li>
+          <li>Express Transport</li>
+          <li>Urgent Transport</li>
+          <li>Groupage</li>
+        </ul>
+      </div>
+      <div class='leda-content-child'>
+        <h3>Locations</h3>
+        <ul>
+          <li>Birmingham</li>
+          <li>Bradford</li>
+          <li>Bristol</li>
+          <li>Edinburgh</li>
+          <li>Fife</li>
+          <li>Glasgow</li>
+          <li>Kirklees</li>
+          <li>Leeds</li>
+        </ul>
+      </div>
+      <div class='leda-content-child'>
+        <h3>Locations</h3>
+        <ul>
+          <li>Liverpool</li>
+          <li>London</li>
+          <li>Manchester</li>
+          <li>Newcastle</li>
+          <li>North Lanarkshire</li>
+          <li>Sheffield</li>
+          <li>Wakefield</li>
+          <li>Wirral</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class='final-footer'>
+    <img src="img/leda.svg" class="leda" alt="Leda Transport Logo" title="Leda Transport Logo">
+    <p>© 2022 Leda Transport Solutions Ltd. Registered in England and Wales - Company Number: 10165475. VAT Registration Number: GB244781392.</p>
+    <p>Registered office: Ground Floor, 7 Silverton Court, Cramlington, Northumberland, NE23 7RY, United Kingdom.</p>
+  </div>
+</footer>
+</body>
+</html>

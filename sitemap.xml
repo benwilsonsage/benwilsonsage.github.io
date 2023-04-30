@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url>
+   <loc>https://www.ledatransport.co.uk/</loc>
+   <xhtml:link rel="alternate" media="only screen and (max-width: 640px)" href="https://www.ledatransport.co.uk/mobile/index.php" />
+   <lastmod>2022-05-14</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>1.0</priority>
+</url>
+<url>
+   <loc>https://www.ledatransport.co.uk/services.php</loc>
+   <xhtml:link rel="alternate" media="only screen and (max-width: 640px)" href="https://www.ledatransport.co.uk/mobile/services.php" />
+   <lastmod>2022-05-14</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>1.0</priority>
+</url>
+<url>
+   <loc>https://www.ledatransport.co.uk/services/dedicated-transport.php</loc>
+   <xhtml:link rel="alternate" media="only screen and (max-width: 640px)" href="https://www.ledatransport.co.uk/mobile/services.php" />
+   <lastmod>2022-05-14</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>1.0</priority>
+</url>
+<url>
+   <loc>https://www.ledatransport.co.uk/services/express-transport.php</loc>
+   <xhtml:link rel="alternate" media="only screen and (max-width: 640px)" href="https://www.ledatransport.co.uk/mobile/services.php" />
+   <lastmod>2022-05-14</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>1.0</priority>
+</url>
+<url>
+   <loc>https://www.ledatransport.co.uk/services/emergency-urgent-transport.php</loc>
+   <xhtml:link rel="alternate" media="only screen and (max-width: 640px)" href="https://www.ledatransport.co.uk/mobile/services.php" />
+   <lastmod>2022-05-14</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>1.0</priority>
+</url>
+<url>
+   <loc>https://www.ledatransport.co.uk/suppliers.php</loc>
+   <xhtml:link rel="alternate" media="only screen and (max-width: 640px)" href="https://www.ledatransport.co.uk/mobile/suppliers.php" />
+   <lastmod>2022-05-14</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>1.0</priority>
+</url>
+<url>
+   <loc>https://www.ledatransport.co.uk/about.php</loc>
+   <xhtml:link rel="alternate" media="only screen and (max-width: 640px)" href="https://www.ledatransport.co.uk/mobile/about.php" />
+   <lastmod>2022-05-14</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>1.0</priority>
+</url>
+<url>
+   <loc>https://www.ledatransport.co.uk/news.php</loc>
+   <xhtml:link rel="alternate" media="https://www.facebook.com/ledatransport/" />
+   <lastmod>2022-05-14</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>1.0</priority>
+</url>
+</urlset>

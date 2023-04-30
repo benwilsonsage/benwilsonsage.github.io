@@ -1,0 +1,13 @@
+User-Agent: *
+Disallow: /directors/
+Disallow: /Directors/
+Disallow: /director/
+Disallow: /Director/
+Disallow: /about/
+Disallow: /suppliers/
+Disallow: /contact/
+Disallow: /news/
+Disallow: /parts/
+Disallow: /stations/
+Disallow: /trains/
+Sitemap: https://www.ledatransport.co.uk/sitemap.xml
